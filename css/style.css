@@ -1,0 +1,73 @@
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background: #ddd;
+}
+.container{
+    padding: 0 8.5%;
+}
+h4{
+    font-size: 30px;
+}
+/* --------------------------- header start  */
+#header-area{
+    background: #1da1f2;
+    padding: 20px 0;
+}
+.header-content{}
+.header-content h4 span{
+    color: red;
+}
+/* --------------------- header End  */
+/* ---------------------------- Nav Start  */
+#nav-area{
+    background: #d35400;
+    padding: 10px 0;
+    margin-top: 20px;
+}
+.nav-content{}
+.nav-content h4{
+    text-align: center;
+    color: #fff;
+}
+/* --------------------- -- Nav End  */
+/* ----------------------------- Banner Start  */
+#banner-area{
+    margin-top: 15px;
+}
+.banner-content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.side-bar{
+    background: #d35400;
+    text-align: center;
+    color: #fff;
+    width: 25%;
+    padding: 200px;
+    white-space: nowrap;
+}
+.body-area{
+    background: #d35400;
+    width: 68%;
+    padding: 200px;
+    color: #fff;
+    text-align: center;
+}
+/* ------------------- Banner Start  */
+/* -------------------------- Footer Start  */
+#footer-area{
+    background: #1da1f2;
+    padding: 20px 0;
+    margin-top: 15px;
+}
+.footer-content{
+    text-align: center;
+}
+/* ------------------------ Footer End  */
